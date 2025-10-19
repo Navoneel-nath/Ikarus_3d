@@ -1,8 +1,3 @@
-# ===================================================================
-#         AI-POWERED FURNITURE SEARCH API - MAIN.PY
-#       Complete Backend with LangChain & Natural Language Understanding
-# ===================================================================
-
 import os
 import re
 import json
@@ -23,9 +18,6 @@ from langchain_community.llms import HuggingFacePipeline
 from langchain.prompts import PromptTemplate
 from langchain.chains import LLMChain
 
-# ===================================================================
-# 1. FASTAPI SETUP
-# ===================================================================
 app = FastAPI(
     title="AI-Powered Furniture Search API",
     version="15.0.0",
