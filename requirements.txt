@@ -1,0 +1,31 @@
+# ===================================================================
+# Python Dependencies for Ikarus AI Furniture Search
+# ===================================================================
+
+# --- Core Web Framework ---
+fastapi
+uvicorn[standard]
+python-dotenv
+pydantic
+
+# --- Data Handling & Analysis ---
+pandas
+numpy
+scikit-learn  # Often a dependency of other ML libs, good to have
+
+# --- Machine Learning & AI ---
+sentence-transformers
+torch
+transformers
+accelerate # Recommended for HuggingFace transformers
+langchain
+langchain-community
+
+# --- Vector Database ---
+pinecone-client
+
+# --- Utilities ---
+requests
+Pillow
+tqdm
+python-multipart # For file uploads in FastAPI, good practice to include
