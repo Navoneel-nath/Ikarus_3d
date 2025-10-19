@@ -161,7 +161,7 @@ print("✅ LangChain chains created successfully")
 print("\n📊 Connecting to Pinecone...")
 PINECONE_API_KEY = os.environ.get(
     "PINECONE_API_KEY",
-    "pcsk_5pv4yK_7egZVBomhiC2qKLmyGjFjpivFrfG92HfHkSiZ1Z1PWXvVQv83U1seg9SZ2ZJCx6"
+    "YOUR API"
 )
 pc = Pinecone(api_key=PINECONE_API_KEY)
 index = pc.Index("product-recommendations")
